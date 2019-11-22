@@ -4,8 +4,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>portfolio</h1>
-      <p>Hi, I'm Shelby. I'm a software engineer.</p>
+      <div className="nav">
+        <p className="name">shelby jacobs</p>
+        <a href="#">Home </a>
+        <a href="#">About </a>
+        <a href="#">Projects </a>
+        <a href="#">Contact </a>
+      </div>
     </div>
   );
 }
