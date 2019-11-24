@@ -1,0 +1,17 @@
+.projectScreenshots {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.screenshots {
+    height: 30%;
+    width: 30%;
+    margin: 0 10px 40px 10px;
+    transition: .4s ease;
+}
+
+.screenshots:hover {
+    opacity: .5;
+    cursor: pointer;
+}

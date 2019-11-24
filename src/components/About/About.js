@@ -16,8 +16,8 @@ export default function About(props) {
                 <p className="aboutDetails">This is the about section.</p>
                 <img src={img} alt="profile" className="profile"></img>
             </div>
-            <Contact />
             <Skills />
+            <Contact />
         </div>
     );
 };
