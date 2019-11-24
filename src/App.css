@@ -2,24 +2,40 @@
     box-sizing: border-box;
 }
 
-.nav {
-    background-color: #8860D0;
-    color: white;
-    /* font-family: 'Calistoga', cursive; */
+.App {
+    background-color: #c1c8e4;
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 80px;
-    text-transform: uppercase;
-    padding: 10px;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    font-size: 18px;
     margin: 0 auto;
 }
 
+.nav {
+    background: rgb(132,206,235);
+    background: radial-gradient(circle, rgba(132,206,235,1) 0%, rgba(90,185,234,1) 100%);
+    padding: 10px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    line-height: .4;
+    border-bottom: 25px solid #8860d0;
+}
+
 .name {
-    padding: 0px 50px;
+    /* padding: 0px 150px; */
+    color: white;
+    font-size: 80px;
+    text-transform: uppercase;
+    text-align: right;
+    text-shadow: 2px 2px 8px #5680e9;
 }
 
 a{
+    font-size: 40px;
+}
+
+.header {
+    color: #8860d0;
+    font-family: 'Raleway', sans-serif;
     font-size: 40px;
 }
