@@ -1,7 +1,5 @@
 import React from 'react';
 import "./Contact.css";
-import github from "./Img/github.svg";
-import linkedin from "./Img/linkedin.svg";
 
 export default function Contact() {
     return (
@@ -9,10 +7,10 @@ export default function Contact() {
             <h2 className="header">Contact</h2>
             <div className="contactContent important">
                 <p>shelbyvjacobs@gmail.com</p>
-                <a href="./resume.pdf">Resume</a>
+                <a href="./resume.pdf" target="_blank">Resume</a>
                 <div className="iconsDiv">
-                    <a href="https://www.linkedin.com/in/shelbyvjacobs/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="github" className="icon"></img></a>
-                    <a href="https://github.com/shelbyvjacobs" target="_blank" rel="noopener noreferrer"><img src={github} alt="linkedin" className="icon"></img></a>
+                    <a href="https://www.linkedin.com/in/shelbyvjacobs/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://github.com/shelbyvjacobs" target="_blank" rel="noopener noreferrer">GitHub</a>
                 </div>
             </div>
         </div>

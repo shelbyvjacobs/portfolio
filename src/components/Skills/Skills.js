@@ -13,6 +13,9 @@ export default function Skills () {
                 <li>React</li>
                 <li>Express</li>
                 <li>MongoDB</li>
+                <li>Python</li>
+                <li>Django</li>
+                <li>Agile</li>
             </ul>
         </div>
     )

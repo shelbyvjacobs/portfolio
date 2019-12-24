@@ -3,48 +3,9 @@
     --light-blue: #c1dff0;
     --blue: #5a8dc7;
     --black: #293132;
+    --ff-ss: 'Raleway', sans-serif;
 }
 
 * {
     box-sizing: border-box;
-}
-
-.App {
-    background-color: var(--white);
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    margin: 0 auto;
-}
-
-.nav {
-    background: var(--light-blue);
-    background: radial-gradient(circle, var(--blue), var(--black));
-    padding: 10px;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-    margin: 0 auto;
-    font-family: 'Raleway', sans-serif;
-    line-height: .4;
-    border-bottom: 25px solid var(--blue);
-    position: sticky;
-    width: 100vw;
-}
-
-.name {
-    /* padding: 0px 150px; */
-    color: var(--white);
-    font-size: 80px;
-    text-transform: uppercase;
-    text-align: right;
-    text-shadow: 2px 2px 8px var(--blue);
-}
-
-a{
-    font-size: 40px;
-}
-
-.header {
-    color: var(--black);
-    font-family: 'Raleway', sans-serif;
-    font-size: 40px;
 }

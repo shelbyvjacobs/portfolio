@@ -6,7 +6,7 @@ import "./Home.css";
 export default function Home() {
     return (
         <div className="Home Section">
-            <p className="important">Software Engineer.</p>
+            <p className="important">Full Stack Developer.</p>
         </div>
     );
 };
