@@ -6,7 +6,14 @@ export default function Skills () {
     return (
         <div className="Skills Section">
             <h2 className="header">Skills</h2>
-            <p>HTML, CSS, Javascript, React, Express, MongoDB, RESTful APIs, etc</p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>React</li>
+                <li>Express</li>
+                <li>MongoDB</li>
+            </ul>
         </div>
     )
 }

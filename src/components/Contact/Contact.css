@@ -5,7 +5,7 @@
 }
 
 .icon:hover {
-    background-color: rgba(132,206,235, 0.5);
+    background-color: var(--light-blue);
     cursor: pointer;
 }
 

@@ -1,7 +1,7 @@
 .important {
     font-size: 30px;
     line-height: .6;
-    background-color: #5680e9;
+    background-color: var(--blue);
     color: white;
     margin: 30px 50px;
     padding: 70px;

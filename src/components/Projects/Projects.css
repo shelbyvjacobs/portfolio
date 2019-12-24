@@ -1,9 +1,3 @@
-.projectScreenshots {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
 .screenshots {
     height: 30%;
     width: 30%;
