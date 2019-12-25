@@ -16,16 +16,17 @@ class Projects extends Component {
 
     render(){
         return (
-            <div className="Projects Section">
-                <div className="projectScreenshots">
+            <div className="Projects">
+                <h2 className="Projects-header">My Work</h2>
+                <div className="Projects-screenshots-container">
                     <a href="https://github.com/shelbyvjacobs/Responsive-Design" target="_blank" rel="noopener noreferrer">
-                        <img src={intro} className="screenshots" alt="intro"></img>
+                        <img src={intro} className="Projects-screenshot" alt="intro"></img>
                     </a>
                     <a href="https://github.com/shelbyvjacobs/shelbyvjacobs.github.io" target="_blank" rel="noopener noreferrer">
-                        <img src={trivia} className="screenshots" alt="trivia"></img>
+                        <img src={trivia} className="Projects-screenshot" alt="trivia"></img>
                     </a>
                     <a href="https://github.com/torykling/game-meetup" target="_blank" rel="noopener noreferrer">
-                        <img src={bgm} className="screenshots" alt="bgm"></img>
+                        <img src={bgm} className="Projects-screenshot" alt="bgm"></img>
                     </a>
                 </div>
             </div>

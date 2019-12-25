@@ -1,0 +1,14 @@
+.Projects-screenshots-container {
+    display: flex;
+}
+
+.Projects-screenshot {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: ease 300ms;
+}
+
+.Projects-screenshot:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
