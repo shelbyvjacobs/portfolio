@@ -7,17 +7,47 @@
 }
 
 .Projects-screenshots-container {
-    display: flex;
     padding-bottom: 100px;
 }
 
-.Projects-screenshot {
-    -webkit-filter: grayscale(50%);
-    filter: grayscale(50%);
-    transition: ease 300ms;
+.Projects-item {
+    position: relative;
+    overflow: hidden;
 }
 
-.Projects-screenshot:hover {
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(0%);
+.Projects-caption {
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(90, 141, 199, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 2em;
+    transition: top ease-in-out 300ms;
+}
+
+.Projects-caption:hover {
+    top: 0;
+}
+
+.Projects-caption-header {
+    font-family: var(--ff-ss);
+    font-size: 3em;
+    color: var(--black);
+}
+
+.Projects-caption-desc {
+    color: var(--white);
+}
+/* 
+.Projects-caption-link {
+    
+} */
+
+.Projects-screenshot {
+    display: block;
 }

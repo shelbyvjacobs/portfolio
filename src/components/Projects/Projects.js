@@ -5,6 +5,9 @@ import "./Projects.css";
 import intro from "./Img/introScreenshot.png";
 import trivia from "./Img/triviaScreenshot.png";
 import bgm from "./Img/bgmScreenshot.png";
+import cotripper from "./Img/cotripperScreenshot.png";
+import { blockStatement } from "@babel/types";
+import { NONAME } from "dns";
 
 class Projects extends Component {
     constructor(props) {
@@ -14,20 +17,66 @@ class Projects extends Component {
         }
     }
 
+    // handleClick = () => {
+        // when the Projects-item is clicked
+        // if the style of Projects-caption contains display: none, toggle to display: block;
+        // else, toggle to display: none;
+    // }
+
     render(){
         return (
             <div className="Projects">
                 <h2 className="header">My Work</h2>
                 <div className="Projects-screenshots-container">
-                    <a href="https://github.com/shelbyvjacobs/Responsive-Design" target="_blank" rel="noopener noreferrer">
-                        <img src={intro} className="Projects-screenshot" alt="intro"></img>
-                    </a>
-                    <a href="https://github.com/shelbyvjacobs/shelbyvjacobs.github.io" target="_blank" rel="noopener noreferrer">
-                        <img src={trivia} className="Projects-screenshot" alt="trivia"></img>
-                    </a>
-                    <a href="https://github.com/torykling/game-meetup" target="_blank" rel="noopener noreferrer">
+
+                    {/* Project 1 */}
+                    <div className="Projects-item">
+                        <img src={cotripper} className="Projects-screenshot" alt="cotripper"></img>
+                        <div className="Projects-caption">
+                            <h3 className="Projects-caption-header">Project Name</h3>
+                            <p className="Projects-caption-desc">description</p>
+                            <a href="https://github.com/CotripperPlatform/CoTrip" target="_blank" rel="noopener noreferrer" className="Projects-caption-link">
+                                More information
+                            </a>
+                        </div>
+                    </div>
+
+                    {/* Project 2 */}
+                    <div className="Projects-item">
                         <img src={bgm} className="Projects-screenshot" alt="bgm"></img>
-                    </a>
+                        <div className="Projects-caption">
+                            <h3 className="Projects-caption-header">Project Name</h3>
+                            <p className="Projects-caption-desc">description</p>
+                            <a href="https://github.com/torykling/game-meetup" target="_blank" rel="noopener noreferrer" className="Projects-caption-link">
+                                More information
+                            </a>
+                        </div>
+                    </div>
+
+                    {/* Project 3 */}
+                    <div className="Projects-item">
+                        <img src={intro} className="Projects-screenshot" alt="intro"></img>
+                        <div className="Projects-caption">
+                            <h3 className="Projects-caption-header">Project Name</h3>
+                            <p className="Projects-caption-desc">description</p>
+                            <a href="https://github.com/shelbyvjacobs/Responsive-Design" target="_blank" rel="noopener noreferrer" className="Projects-caption-link">
+                                More information
+                            </a>
+                        </div>
+                    </div>
+
+                    {/* Project 4 */}
+                    <div className="Projects-item">
+                        <img src={trivia} className="Projects-screenshot" alt="trivia"></img>
+                        <div className="Projects-caption">
+                            <h3 className="Projects-caption-header">Project Name</h3>
+                            <p className="Projects-caption-desc">description</p>
+                            <a href="https://github.com/shelbyvjacobs/shelbyvjacobs.github.io" target="_blank" rel="noopener noreferrer" className="Projects-caption-link">
+                                More information
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         )
