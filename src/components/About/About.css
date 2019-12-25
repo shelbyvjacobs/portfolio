@@ -24,18 +24,6 @@
     padding: 125px;
 }
 
-.About-header {
-    font-family: var(--ff-ss);
-    font-size: 2em;
-    line-height: 3;
-    text-align: center;
-}
-
-.About-details {
-    padding-bottom: 30px;
-    line-height: 1.5;
-}
-
 .About-tagline {
     font-family: var(--ff-ss);
     font-size: 1.5em;

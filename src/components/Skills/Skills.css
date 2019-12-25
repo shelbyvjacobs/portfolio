@@ -9,12 +9,6 @@
     margin-bottom: -10vw;
 }
 
-.Skills-header {
-    font-family: var(--ff-ss);
-    font-size: 2em;
-    line-height: 3;
-}
-
 .Skills-list {
     list-style-type: none;
     margin: 0;
