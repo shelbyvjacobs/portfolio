@@ -1,0 +1,33 @@
+.Home-nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--blue);
+    color: var(--light-blue);
+    padding: 30px 50px;
+}
+
+.Home-banner {
+    background-image: url("./Img/jesus-kiteque-wn-KYaHwcis-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.Home-message {
+    font-size: 1.5rem;
+    color: var(--black);
+    line-height: 1.5;
+    text-align: center;
+}
+
+.Home-message-big {
+    display: block;
+    font-size: 5rem;
+    color: var(--blue);
+    font-family: var(--ff-ss);
+    line-height: 1;
+    text-transform: uppercase;
+}

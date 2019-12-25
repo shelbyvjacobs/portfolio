@@ -2,7 +2,9 @@ import React, {Component} from 'react';
 import './App.css';
 import About from "./components/About/About"
 import Home from "./components/Home/Home"
+import Contact from "./components/Contact/Contact";
 import Projects from "./components/Projects/Projects"
+import Skills from "./components/Skills/Skills";
 // import Contact from "./components/Contact/Contact"
 // import { Route, Link, Switch } from "react-router-dom";
 
@@ -25,7 +27,9 @@ class App extends Component {
       </nav>
       <Home />
       <About />
+      <Skills />
       <Projects />
+      <Contact />
       <main>
         {/* <Switch>
           <Route 

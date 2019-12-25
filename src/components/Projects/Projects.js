@@ -17,7 +17,6 @@ class Projects extends Component {
     render(){
         return (
             <div className="Projects Section">
-                <h2 className="header">Projects</h2>
                 <div className="projectScreenshots">
                     <a href="https://github.com/shelbyvjacobs/Responsive-Design" target="_blank" rel="noopener noreferrer">
                         <img src={intro} className="screenshots" alt="intro"></img>
