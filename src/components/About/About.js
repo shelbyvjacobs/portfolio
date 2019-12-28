@@ -1,7 +1,3 @@
-// Headshot, short description
-// import Skills here
-// import Contact here
-
 import React from 'react';
 import me from "./Img/aboutSquare.jpg";
 import "./About.css";

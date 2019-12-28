@@ -23,10 +23,13 @@ class App extends Component {
         <Link to="#about">About </Link>
         <Link to="#projects">Projects </Link>
         <Link to="#contact">Contact </Link> */}
-        <a href="#home">home</a>
-        <a href="#about">about</a>
-        <a href="#projects">projects</a>
-        <a href="#contact">contact</a>
+        <p className="nav-name">Shelby Jacobs</p>
+        <div className="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
       </nav>
       <Home />
       <About />
