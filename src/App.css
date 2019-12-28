@@ -16,6 +16,14 @@
     font-family: var(--ff-s);
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--blue);
+    color: var(--light-blue);
+    padding: 30px 50px;
+}
+
 img {
     max-width: 100%;
 }
@@ -30,4 +38,19 @@ img {
 p {
     padding-bottom: 30px;
     line-height: 1.5;
+}
+
+.link {
+    transition: .4s ease-in-out;
+    padding: 15px;
+    border: 3px solid var(--black);
+    border-radius: 40px;
+    margin: 5px auto;
+    color: var(--black);
+}
+
+.link:hover,
+.link:focus {
+    background-color: var(--black);
+    color: var(--white);
 }

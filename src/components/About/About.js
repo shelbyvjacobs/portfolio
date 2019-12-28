@@ -8,7 +8,7 @@ import "./About.css";
 
 export default function About(props) {
     return (
-        <div className="About">
+        <div className="About" id="about">
             <div className="About-section">
                 <div className="About-img left"></div>
                 <div className="About-details-container">

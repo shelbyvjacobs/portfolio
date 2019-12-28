@@ -23,7 +23,11 @@
     width: 300px;
 }
 
-.Contact-links-container,
+.Contact-link-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .Contact-icons-container {
     display: flex;
     flex-direction: row;
@@ -31,9 +35,20 @@
     padding: 20px;
 }
 
+.Contact-link {
+    border-color: var(--white);
+    color: var(--white);
+}
+
+.Contact-link:hover,
+.Contact-link:focus {
+    background-color: var(--white);
+    color: var(--black);
+}
+
 .Contact-icon {
-    height: 50%;
-    width: 50%;
+    height: 60%;
+    width: 60%;
 }
 
 a {

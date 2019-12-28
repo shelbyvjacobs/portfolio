@@ -6,8 +6,6 @@ import intro from "./Img/introScreenshot.png";
 import trivia from "./Img/triviaScreenshot.png";
 import bgm from "./Img/bgmScreenshot.png";
 import cotripper from "./Img/cotripperScreenshot.png";
-import { blockStatement } from "@babel/types";
-import { NONAME } from "dns";
 
 class Projects extends Component {
     constructor(props) {
@@ -25,17 +23,17 @@ class Projects extends Component {
 
     render(){
         return (
-            <div className="Projects">
+            <div className="Projects" id="projects">
                 <h2 className="header">My Work</h2>
-                <div className="Projects-screenshots-container">
+                <div className="Projects-items-container">
 
                     {/* Project 1 */}
                     <div className="Projects-item">
                         <img src={cotripper} className="Projects-screenshot" alt="cotripper"></img>
                         <div className="Projects-caption">
-                            <h3 className="Projects-caption-header">Project Name</h3>
+                            <h3 className="Projects-caption-header">CoTripper</h3>
                             <p className="Projects-caption-desc">description</p>
-                            <a href="https://github.com/CotripperPlatform/CoTrip" target="_blank" rel="noopener noreferrer" className="Projects-caption-link">
+                            <a href="https://github.com/CotripperPlatform/CoTrip" target="_blank" rel="noopener noreferrer" className="link">
                                 More information
                             </a>
                         </div>
@@ -45,9 +43,9 @@ class Projects extends Component {
                     <div className="Projects-item">
                         <img src={bgm} className="Projects-screenshot" alt="bgm"></img>
                         <div className="Projects-caption">
-                            <h3 className="Projects-caption-header">Project Name</h3>
+                            <h3 className="Projects-caption-header">BGM.</h3>
                             <p className="Projects-caption-desc">description</p>
-                            <a href="https://github.com/torykling/game-meetup" target="_blank" rel="noopener noreferrer" className="Projects-caption-link">
+                            <a href="https://github.com/torykling/game-meetup" target="_blank" rel="noopener noreferrer" className="link">
                                 More information
                             </a>
                         </div>
@@ -57,9 +55,9 @@ class Projects extends Component {
                     <div className="Projects-item">
                         <img src={intro} className="Projects-screenshot" alt="intro"></img>
                         <div className="Projects-caption">
-                            <h3 className="Projects-caption-header">Project Name</h3>
+                            <h3 className="Projects-caption-header">Intro.</h3>
                             <p className="Projects-caption-desc">description</p>
-                            <a href="https://github.com/shelbyvjacobs/Responsive-Design" target="_blank" rel="noopener noreferrer" className="Projects-caption-link">
+                            <a href="https://github.com/shelbyvjacobs/Responsive-Design" target="_blank" rel="noopener noreferrer" className="link">
                                 More information
                             </a>
                         </div>
@@ -69,9 +67,9 @@ class Projects extends Component {
                     <div className="Projects-item">
                         <img src={trivia} className="Projects-screenshot" alt="trivia"></img>
                         <div className="Projects-caption">
-                            <h3 className="Projects-caption-header">Project Name</h3>
+                            <h3 className="Projects-caption-header">Bubblegum Trivia</h3>
                             <p className="Projects-caption-desc">description</p>
-                            <a href="https://github.com/shelbyvjacobs/shelbyvjacobs.github.io" target="_blank" rel="noopener noreferrer" className="Projects-caption-link">
+                            <a href="https://github.com/shelbyvjacobs/shelbyvjacobs.github.io" target="_blank" rel="noopener noreferrer" className="link">
                                 More information
                             </a>
                         </div>

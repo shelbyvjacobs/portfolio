@@ -5,12 +5,12 @@ import linkedin from "./Img/linkedin.svg";
 
 export default function Contact() {
     return (
-        <div className="Contact">
+        <div className="Contact" id="contact">
             <h2 className="header">Contact Me</h2>
             <div className="Contact-container">
                 <div className="Contact-link-container">
-                    <p>shelbyvjacobs@gmail.com</p>
-                    <a href="./resume.pdf" target="_blank">Resume</a>
+                    <a href="#" className="link Contact-link">shelbyvjacobs@gmail.com</a>
+                    <a href="./resume.pdf" target="_blank" className="link Contact-link">Resume</a>
                 </div>
                 <div className="Contact-icons-container">
                     <a href="https://www.linkedin.com/in/shelbyvjacobs/" target="_blank" rel="noopener noreferrer">

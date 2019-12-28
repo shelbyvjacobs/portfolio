@@ -5,7 +5,6 @@ import Home from "./components/Home/Home"
 import Contact from "./components/Contact/Contact";
 import Projects from "./components/Projects/Projects"
 import Skills from "./components/Skills/Skills";
-// import Contact from "./components/Contact/Contact"
 // import { Route, Link, Switch } from "react-router-dom";
 
 
@@ -20,10 +19,14 @@ class App extends Component {
   return (
     <div className="App">
       <nav className="nav">
-        {/* <Link to="/">Home</Link>
-        <Link to="/about">About </Link>
-        <Link to="/projects">Projects </Link>
-        <Link to="/contact">Contact </Link> */}
+        {/* <Link to="#home">Home</Link>
+        <Link to="#about">About </Link>
+        <Link to="#projects">Projects </Link>
+        <Link to="#contact">Contact </Link> */}
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#projects">projects</a>
+        <a href="#contact">contact</a>
       </nav>
       <Home />
       <About />
@@ -33,25 +36,25 @@ class App extends Component {
       <main>
         {/* <Switch>
           <Route 
-            exact path="/"
+            exact path="#home"
             render={routerProps => (
               <Home />
             )}
           />
           <Route
-            exact path="/about"
+            exact path="#about"
             render={routerProps => (
               <About />
             )}
           />
           <Route
-            exact path="/projects"
+            exact path="#projects"
             render={routerProps => (
               <Projects />
             )}
           />
           <Route
-            exact path="/contact"
+            exact path="#contact"
             render={routerProps => (
               <Contact />
             )}
