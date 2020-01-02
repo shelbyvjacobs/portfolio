@@ -9,7 +9,7 @@ export default function Contact() {
             <h2 className="header">Contact Me</h2>
             <div className="Contact-container">
                 <div className="Contact-link-container">
-                    <a href="#" className="link Contact-link">shelbyvjacobs@gmail.com</a>
+                    <a href="mailto:shelbyvjacobs@gmail.com" className="link Contact-link">shelbyvjacobs@gmail.com</a>
                     <a href="./resume.pdf" target="_blank" className="link Contact-link">Resume</a>
                 </div>
                 <div className="Contact-icons-container">
