@@ -16,14 +16,3 @@
     display: flex;
     justify-content: space-between;
 }
-
-li {
-    transform: translateY(-10%);
-    transition: .4s ease-in-out;
-    padding: 20px;
-}
-
-li:hover {
-    background-color: var(--black);
-    transform: translateY(0);
-}
