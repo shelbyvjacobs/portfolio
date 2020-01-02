@@ -41,6 +41,10 @@ nav {
     width: 50%;
 }
 
+.nav-link:hover {
+    color: var(--light-blue);
+}
+
 img {
     max-width: 100%;
 }
