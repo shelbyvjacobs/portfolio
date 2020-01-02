@@ -2,7 +2,7 @@ import React from 'react';
 import "./Contact.css";
 import github from "./Img/github.svg";
 import linkedin from "./Img/linkedin.svg";
-import resume from "./resume.pdf";
+import resume from "./portfolio-resume.pdf";
 
 export default function Contact() {
     return (
