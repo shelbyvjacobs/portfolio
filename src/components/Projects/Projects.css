@@ -20,6 +20,15 @@
 
 .Projects-screenshot {
     display: block;
+    -webkit-filter: grayscale(50%);
+    filter: grayscale(50%);
+    transition: ease-in 3ms;
+}
+
+.Projects-screenshot:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    transition: ease-in 3ms;
 }
 
 /* .Projects-caption {
