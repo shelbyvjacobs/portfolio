@@ -1,5 +1,4 @@
 import React from 'react';
-import me from "./Img/aboutSquare.jpg";
 import "./About.css";
 
 export default function About(props) {
@@ -13,7 +12,6 @@ export default function About(props) {
                     <p className="About-details">I discovered early on that my interest laid in managing digital resources. However, I didn't know much about them beyond the theoretical, and I wanted to understand it on a deeper level. I decided to take my education into my own hands and enroll in the Software Engineering Immersive bootcamp at General Assembly.</p>
                     <p className="About-details">My experience at General Assembly taught me much more than how to code: it fueled the fire of my passion for <span className="italic">clean</span> code and accessible information. I also realized the positive impact a usuable and appealing design can have on a user's experience.</p>
                     <p className="About-tagline">The future of information is digital. I want to make it beautiful and functional.</p>
-                    {/* <img src={me} alt="profile" className="About-profile"></img> */}
                 </div>
                 <div className="About-img right"></div>
             </div>

@@ -1,5 +1,3 @@
-// All of the skills that are relevant
-
 import React from "react";
 import "./Skills.css";
 

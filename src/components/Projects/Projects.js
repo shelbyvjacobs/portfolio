@@ -1,5 +1,3 @@
-// Each should have a Description, including methodology, and a screenshot
-
 import React, {Component} from "react";
 import "./Projects.css";
 import intro from "./Img/introScreenshot.png";
@@ -14,12 +12,6 @@ class Projects extends Component {
             
         }
     }
-
-    // handleClick = () => {
-        // when the Projects-item is clicked
-        // if the style of Projects-caption contains display: none, toggle to display: block;
-        // else, toggle to display: none;
-    // }
 
     render(){
         return (
