@@ -24,8 +24,8 @@ img {
 .header {
     font-family: var(--ff-ss);
     font-size: 2em;
-    line-height: 3;
     text-align: center;
+    padding: 1em 0;
 }
 
 p {
