@@ -49,7 +49,7 @@ class Projects extends Component {
                         <div className="Projects-caption">
                             <h3 className="Projects-caption-header">Intro.</h3>
                             <p className="Projects-caption-desc">A fully responsive website based on a designer’s mockup and built using HTML and CSS.</p>
-                            <a href="https://github.com/shelbyvjacobs/Responsive-Design" target="_blank" rel="noopener noreferrer" className="Projects-link">
+                            <a href="https://dreamy-banach-2a4b2b.netlify.com/" target="_blank" rel="noopener noreferrer" className="Projects-link">
                                 More information
                             </a>
                         </div>
