@@ -31,8 +31,6 @@
 .Contact-icons-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding: 20px;
 }
 
 .Contact-link {
@@ -42,13 +40,13 @@
 
 .Contact-link:hover,
 .Contact-link:focus {
-    background-color: var(--white);
-    color: var(--black);
+    background-color: var(--blue);
+    border-color: var(--blue);
 }
 
 .Contact-icon {
-    height: 60%;
-    width: 60%;
+    height: 70%;
+    width: 70%;
 }
 
 a {

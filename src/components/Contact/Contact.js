@@ -15,10 +15,10 @@ export default function Contact() {
                 </div>
                 <div className="Contact-icons-container">
                     <a href="https://www.linkedin.com/in/shelbyvjacobs/" target="_blank" rel="noopener noreferrer">
-                        <img src={linkedin} alt="LinkedIn icon" className="Contact-icon"></img>
+                        <img src={linkedin} alt="LinkedIn icon" className="Contact-icon Contact-link link"></img>
                     </a>
                     <a href="https://github.com/shelbyvjacobs" target="_blank" rel="noopener noreferrer">
-                        <img src={github} alt="GitHub icon" className="Contact-icon"></img>
+                        <img src={github} alt="GitHub icon" className="Contact-icon Contact-link link"></img>
                     </a>
                 </div>
             </div>
