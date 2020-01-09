@@ -41,6 +41,7 @@
 .Projects-link {
     color: var(--black);
     transition: 300ms;
+    display: block;
 }
 
 .Projects-link:hover {
