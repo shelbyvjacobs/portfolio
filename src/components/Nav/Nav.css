@@ -11,7 +11,7 @@ nav {
 
 .nav-name {
     font-family: var(--ff-ss);
-    font-size: 25px;
+    font-size: 1.6rem;
     color: var(--white);
     padding-bottom: 0;
 }
@@ -26,4 +26,20 @@ nav {
 .nav-link:hover,
 .nav-link:focus {
     color: var(--light-blue);
+}
+
+@media screen and (max-width: 767px) {
+    .nav {
+        height: 150px;
+    }
+
+    .nav-name {
+        font-size: 3rem;
+        margin: 0 auto;
+        align-self: center;
+    }
+
+    .nav-links {
+        display: none;
+    }
 }
