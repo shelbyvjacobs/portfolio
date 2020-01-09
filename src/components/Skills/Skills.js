@@ -10,11 +10,11 @@ export default function Skills () {
                 <li>CSS</li>
                 <li>Javascript</li>
                 <li>React</li>
+                <li>Node.js</li>
                 <li>Express</li>
                 <li>MongoDB</li>
                 <li>Python</li>
                 <li>Django</li>
-                <li>Agile</li>
             </ul>
         </div>
     )
