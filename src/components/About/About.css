@@ -28,7 +28,6 @@
     font-family: var(--ff-ss);
     font-size: 1.5em;
     text-align: center;
-    line-height: 1.5;
 }
 
 .About-tagline::before,
@@ -42,9 +41,15 @@
 }
 
 .About-profile {
-    border-radius: 50%;
-    height: 50%;
-    width: 50%;
+    border-radius: 15px;
+    height: 20vw;
+    width: 20vw;
+    min-height: 200px;
+    min-width: 200px;
+    float: left;
+    background-image: url(./Img/aboutSquare.jpg);
+    background-size: cover;
+    margin: 0 20px 0 0;
 }
 
 .italic {
