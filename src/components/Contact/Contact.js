@@ -11,7 +11,7 @@ export default function Contact() {
             <div className="Contact-container">
                 <div className="Contact-link-container">
                     <a href="mailto:shelbyvjacobs@gmail.com" className="link Contact-link">shelbyvjacobs@gmail.com</a>
-                    <a href={resume} target="_blank" className="link Contact-link">Resume</a>
+                    <a href={resume} target="_blank" rel="noopener noreferrer" className="link Contact-link">Resume</a>
                 </div>
                 <div className="Contact-icons-container">
                     <a href="https://www.linkedin.com/in/shelbyvjacobs/" target="_blank" rel="noopener noreferrer">
