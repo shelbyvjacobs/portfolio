@@ -6,15 +6,15 @@ export default function Skills () {
         <div className="Skills">
             <h2 className="header">My Skills</h2>
             <ul className="Skills-list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>React</li>
-                <li>Node.js</li>
-                <li>Express</li>
-                <li>MongoDB</li>
-                <li>Python</li>
-                <li>Django</li>
+                <li className="Skills-item">HTML</li>
+                <li className="Skills-item">CSS</li>
+                <li className="Skills-item">Javascript</li>
+                <li className="Skills-item">React</li>
+                <li className="Skills-item">Node.js</li>
+                <li className="Skills-item">Express</li>
+                <li className="Skills-item">MongoDB</li>
+                <li className="Skills-item">Python</li>
+                <li className="Skills-item">Django</li>
             </ul>
         </div>
     )
