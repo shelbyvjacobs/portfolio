@@ -56,9 +56,17 @@
     font-style: italic;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 767px) {
     .About-profile {
         float: none;
         margin: 20px auto;
+    }
+
+    .About-details-container {
+        padding: 100px;
+    }
+
+    .About-img {
+        display: none;
     }
 }

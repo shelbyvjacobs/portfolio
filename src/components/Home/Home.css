@@ -14,12 +14,20 @@
     font-size: 5rem;
     color: var(--blue);
     font-family: var(--ff-ss);
-    line-height: 1;
+    line-height: .5;
     text-transform: uppercase;
+}
+
+.Home-subtitle {
+    color: var(--black);
 }
 
 @media screen and (max-width: 767px) {
     .Home-name {
         display: none;
+    }
+    
+    .Home-banner {
+        height: 100vh;
     }
 }
