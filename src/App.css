@@ -27,9 +27,9 @@ img {
 
 .header {
     font-family: var(--ff-ss);
-    font-size: 2em;
+    font-size: 4em;
     text-align: center;
-    padding: 1em 0;
+    padding: 2em 0;
 }
 
 p {
